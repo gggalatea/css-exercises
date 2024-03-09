@@ -43,14 +43,26 @@ body {
   font-weight: 900;
 }
 
-.body {
-  flex: 1;
+.footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   flex-shrink: 0;
   padding: 16px;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.body {
+  flex: 1;
+  display: flex;
 }
 
 ul {
@@ -73,16 +85,4 @@ a {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
-}
-
-.card {
-  padding: 16px;
-  margin: 16px;
-  width: 300px;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
